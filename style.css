@@ -1,0 +1,83 @@
+body{
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+/*
+    CONTENEDOR PRINCIPAL
+*/
+
+.contenedorPrincipal{
+    display: flex;
+    width: 100%;
+    height: 100vh;
+}
+
+/*
+    MENU
+*/
+
+.panelIzdo{
+    width: 25%;
+    background-color: rgb(95, 172, 95);
+    padding: 20px;
+    box-sizing: border-box;
+}
+
+/*
+    JUEGO
+*/
+
+.panelDcho{
+    width: 75%;
+    border: 3px solid black;
+    position: relative;
+}
+
+/*
+    BOTON
+*/
+
+.iniciar{
+    width: 100%;
+    padding: 10px;
+    font-size: 18px;
+    margin-bottom: 20px;
+    cursor: pointer;
+    background-color: rgb(40, 75, 5);
+    color: aliceblue;
+}
+
+/*
+    TEXTOS
+*/
+
+.puntuacion,
+.record{
+    font-size: 20px;
+    margin-bottom: 15px;
+}
+
+/*
+    BURBUJAS
+*/
+
+.burbuja{
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    position: absolute;
+}
+
+.roja{
+    background-color: red;
+}
+
+.azul{
+    background-color: blue;
+}
+
+.verde{
+    background-color: green;
+}
